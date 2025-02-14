@@ -1,0 +1,12 @@
+1.上传文件路径：cd D:\
+2.初始化：git init
+配置GitHub用户名和邮箱（首次上传只需配置一次）：
+用户名：git config --global user.name "输入自己用户名"
+邮箱：git config --global user.email "输入自己邮箱"
+3.文件缓存区：git add .
+查看状态：git status
+4.提交到本地数据库：git commit -m "first commit"
+   配置ssh密钥，点击settings——ssh——新建密钥——在终端git控制台输入ssh-keygen——
+   ——此电脑C:\Users\lenovo\.ssh——打开.pud后缀复制内容——粘贴到key(只需配置一次)
+6.给ssh密钥授权：在终端git控制台输入ssh -T git@github.com
+7.GitHub创建仓库——按existing提示的命令输入
