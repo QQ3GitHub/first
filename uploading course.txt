@@ -7,6 +7,6 @@
 查看状态：git status
 4.提交到本地数据库：git commit -m "first commit"
    配置ssh密钥，点击settings——ssh——新建密钥——在终端git控制台输入ssh-keygen——
-   ——此电脑C:\Users\lenovo\.ssh——打开.pud后缀复制内容——粘贴到key(只需配置一次)
-6.给ssh密钥授权：在终端git控制台输入ssh -T git@github.com
-7.GitHub创建仓库——按existing提示的命令输入
+   ——此电脑C:\Users\lenovo\.ssh——打开.pud后缀复制内容——粘贴到key————
+   ——给ssh密钥授权：在终端git控制台输入ssh -T git@github.com(只需配置一次)
+5.GitHub创建仓库——按existing提示的命令输入
